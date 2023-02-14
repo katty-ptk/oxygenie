@@ -70,7 +70,7 @@ public class HomePage extends AppCompatActivity {
                     socket.close();
                 } catch (IOException e) {
                     e.printStackTrace();
-                    Log.e("Sending Data", "Error Sending Data: "+e.getMessage());
+                    Log.e("IMPORTANT_LOGGING", "Error Sending Data: "+e.getMessage());
                 }
             }
         }).start();
