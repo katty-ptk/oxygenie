@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SmartPot</string>
+    <string name="background_text">The background of the splash screen</string>
+    <string name="click_to_launch_home">Click to launch Home</string>
 </resources>
