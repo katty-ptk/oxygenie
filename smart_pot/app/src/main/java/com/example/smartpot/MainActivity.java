@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView textViewToAnimate = findViewById(R.id.clickToLaunch);
-        final Runnable r = () -> YoYo.with(Techniques.FadeIn).duration(3000).playOn(textViewToAnimate);
+        final Runnable r = () -> YoYo.with(Techniques.Flash).duration(3000).repeat(2000).playOn(textViewToAnimate);
 
         new Handler().postDelayed(r, 1000);
     }
